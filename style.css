@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(135deg, #ff7eb3, #ff758c);
-    color: #fff;
+    background: #121212; /* Spotify dark background */
+    color: #b3b3b3; /* Spotify light gray text */
 }
 
 header {
-    background: rgba(0, 0, 0, 0.8);
+    background: #181818; /* Spotify header background */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -24,7 +24,7 @@ header h1 {
 }
 
 nav a {
-    color: #fff;
+    color: #b3b3b3;
     margin: 0 1rem;
     text-decoration: none;
     font-weight: 500;
@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffeb3b;
+    color: #1db954; /* Spotify green */
 }
 
 main {
@@ -43,6 +43,7 @@ main {
 main h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #fff;
 }
 
 main p {
@@ -54,6 +55,7 @@ form label {
     display: block;
     margin: 1rem 0 0.5rem;
     font-weight: bold;
+    color: #fff;
 }
 
 form input, form textarea, form button {
@@ -67,24 +69,24 @@ form input, form textarea, form button {
 }
 
 form input, form textarea {
-    background: rgba(255, 255, 255, 0.2);
+    background: #282828; /* Spotify input background */
     color: #fff;
 }
 
 form button {
-    background: #ff758c;
+    background: #1db954; /* Spotify green */
     color: #fff;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 form button:hover {
-    background: #ff4a6e;
+    background: #1aa34a; /* Darker Spotify green */
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    background: #181818;
+    color: #b3b3b3;
     text-align: center;
     padding: 1rem 0;
     position: fixed;
